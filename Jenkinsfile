@@ -2,7 +2,7 @@
     agent any
 
     environment {
-        VERCEL_TOKEN = credentials('vercel-token')
+        VERCEL_TOKEN = credentials('vercel_token')
     }
 
     stages{
