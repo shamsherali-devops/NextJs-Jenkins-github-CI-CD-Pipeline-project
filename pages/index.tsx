@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Moving Abroad Made Easy</title>
+        <title> Moving-Abroad-Made-Easy  </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Professional relocation and moving abroad services." />
         <link rel="icon" href="/favicon.ico" />
