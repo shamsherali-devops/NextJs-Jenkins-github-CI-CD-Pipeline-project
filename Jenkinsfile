@@ -2,7 +2,7 @@
     agent any
 
     environment {
-        VERRCEL_TOKEN = credentials('verrcel-token')
+        VERCEL_TOKEN = credentials('vercel-token')
     }
 
     stages{
@@ -23,7 +23,7 @@
         }
         stage('Deploy'){
             steps{
-                    bat 'npx vercel --prod --token=%VERRCEL_TOKEN%'
+                    bat 'npx vercel --prod --token=%VERCEL_TOKEN%'
             }
         }
     }
