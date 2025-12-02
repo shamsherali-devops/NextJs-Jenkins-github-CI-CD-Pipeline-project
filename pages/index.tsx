@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="home" className="hero">
-        <h1>Move Abroad with Confidence ✈️ by confidence </h1>
+        <h1>Move Abroad with Confidence ✈️  </h1>
         <p>We simplify relocation, visas, and settling into your dream country.</p>
         <a href="#services" className="btn">Explore Services</a>
       </section>
